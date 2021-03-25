@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Raleway:wght@400;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family:  'Bahnschrift', 'SemiBold', Condensed;
+  font-size: 1.2rem;
+}
+
+.banner {
+  background: #001d18e3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 .5rem;
+  z-index: 20;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: inherit;
+  /* border: 1px solid red; */
+}
+
+nav ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 1px solid red; */
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  padding: .8rem;
+}
+
+nav li:hover {
+  color: yellow;
+}
+
+header {
+  position: relative;
+  display: flex;
+  top: 100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid red;
+}
+
+.header-image {
+  border: 1px solid red;
+  align-items: center;
+  float: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  position: relative;
+  text-align-last: center;
+  width: 100%;
+  color: #001d18e3;
+}
